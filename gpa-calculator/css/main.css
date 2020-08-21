@@ -1,0 +1,111 @@
+:root {
+    --mainWhite: #f5f5f5f5;
+    --mainDark: #333333;
+    --mainGreen: #317b22;
+    --mainMaroon: #800000;
+    --mainRed: #b80c09;
+    --mainBlue: #05668d;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Bold.ttf");
+}
+
+body {
+    background: var(--mainWhite);
+    color: var(--mainDark);
+    font-family: "Roboto", sans-serif;
+}
+
+.grade-feedback {
+    display: none;
+}
+
+.grade-form {
+    border: 0.15rem solid var(--mainDark);
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.grade-submit {
+    background: transparent;
+    border: 0.1rem solid var(--mainDark);
+    color: var(--mainDark);
+}
+
+.grade-submit:hover {
+    background: var(--mainRed);
+    color: var(--mainWhite);
+}
+
+.grade-input {
+    border: 0.05rem solid var(--mainDark) !important;
+}
+
+.expense-amount,
+.expense-title {
+    color: var(--mainRed);
+}
+
+.edit-icon {
+    color: var(--mainBlue);
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+.delete-icon {
+    color: var(--mainRed);
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+.edit-icon:hover {
+    color: var(--mainBlue);
+}
+
+.delete-icon:hover {
+    color: var(--mainRed);
+}
+
+.showItem {
+    display: block;
+}
+
+.mac-gpa {
+    font-size: 3.2rem;
+    color: var(--mainMaroon);
+}
+
+.four-gpa {
+    font-size: 3.2rem;
+    color: var(--mainDark);
+}
+
+.showRed {
+    color: var(--mainRed);
+}
+
+.showGreen {
+    color: var(--mainGreen);
+}
+
+.showBlack {
+    color: var(--mainDark);
+}
+
+.showMaroon {
+    color: var(--mainMaroon);
+}
+
+.list-item {
+    flex: 0 0 33.33%;
+    text-align: center;
+    color: var(--mainDark);
+}
+
+.grade-item {
+    height: 2rem;
+}

@@ -3,4 +3,6 @@ A GPA calculator that calculates a McMaster University student's GPA out of McMa
 
 The code for GPA calculation was originally programmed in Python and later converted to JavaScript.
 
+Try it out for yourself: https://mcmaster-gpa-calculator.web.app/
+
 UI design based on Budget App by John Smilga: https://github.com/john-smilga/js-budget-setup

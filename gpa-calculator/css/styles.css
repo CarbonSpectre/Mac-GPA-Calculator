@@ -43,11 +43,6 @@ body {
     border: 0.05rem solid var(--mainDark) !important;
 }
 
-.expense-amount,
-.expense-title {
-    color: var(--mainRed);
-}
-
 .edit-icon {
     color: var(--mainBlue);
     cursor: pointer;
